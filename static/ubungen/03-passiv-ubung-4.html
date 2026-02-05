@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Übung 4 - Von/Durch und Aktiv-Passiv</title>
+    <link rel="stylesheet" href="../topic.css" />
+    <script src="uebung.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="back" href="../topics/03-passiv.html">Zurück zu Kapitel 3</a>
+      <h1>Übung 4: Von/Durch und Aktiv-Passiv</h1>
+      <p class="lead">Level 4: Von/Durch und Aktiv-Umformung.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Aufgabe</h2>
+        <p class="muted">Setze die richtige Form ein.</p>
+        <ol>
+          <li>
+            Der Brief wurde
+            <input type="text" data-answer="von dem" data-label="1" />
+            Chef unterschrieben. (von / der)
+          </li>
+          <li>
+            Die Stadt wurde
+            <input type="text" data-answer="durch den" data-label="2" />
+            Sturm zerstört. (durch / der)
+          </li>
+          <li>
+            Das Gesetz wurde
+            <input type="text" data-answer="von dem" data-label="3" />
+            Parlament verabschiedet. (von / das)
+          </li>
+          <li>
+            Das Licht wird
+            <input type="text" data-answer="durch den" data-label="4" />
+            Schalter eingeschaltet. (durch / der)
+          </li>
+          <li>
+            Er wurde
+            <input type="text" data-answer="von einem" data-label="5" />
+            Hund gebissen. (von / ein)
+          </li>
+          <li>
+            Die Nachricht wurde
+            <input type="text" data-answer="durch das" data-label="6" />
+            Radio verbreitet. (durch / das)
+          </li>
+          <li>
+            Aktiv: Man baut ein Haus. Passiv: Ein Haus
+            <input type="text" data-answer="wird gebaut" data-label="7" />.
+          </li>
+          <li>
+            Aktiv: Wir prüfen die Daten. Passiv: Die Daten
+            <input type="text" data-answer="werden geprüft" data-label="8" />.
+          </li>
+          <li>
+            Aktiv: Er stahl das Geld. Passiv: Das Geld
+            <input type="text" data-answer="wurde gestohlen" data-label="9" />.
+          </li>
+          <li>
+            Aktiv: Sie hat mich eingeladen. Passiv: Ich
+            <input type="text" data-answer="bin eingeladen worden" data-label="10" />.
+          </li>
+          <li>
+            Die Prüfung wird
+            <input type="text" data-answer="von dem" data-label="11" />
+            Professor abgenommen. (von / der)
+          </li>
+          <li>
+            Die Heilung wurde
+            <input type="text" data-answer="durch das" data-label="12" />
+            Medikament beschleunigt. (durch / das)
+          </li>
+          <li>
+            Das Tor wurde
+            <input type="text" data-answer="von dem" data-label="13" />
+            Torwart gehalten. (von / der)
+          </li>
+          <li>
+            Die Infektion wurde
+            <input type="text" data-answer="durch die" data-label="14" />
+            Bakterien ausgelöst. (durch / die)
+          </li>
+          <li>
+            Aktiv: Niemand sah ihn. Passiv: Er
+            <input type="text" data-answer="wurde" data-label="15 Teil 1" />
+            nicht
+            <input type="text" data-answer="gesehen" data-label="15 Teil 2" />.
+          </li>
+          <li>
+            Aktiv: Man muss den Plan ändern. Passiv: Der Plan
+            <input type="text" data-answer="muss geändert werden" data-label="16" />.
+          </li>
+          <li>
+            Die Akten werden
+            <input type="text" data-answer="von der" data-label="17" />
+            Sekretärin sortiert. (von / die)
+          </li>
+          <li>
+            Das Feuer wurde
+            <input type="text" data-answer="durch den" data-label="18" />
+            Regen gelöscht. (durch / der)
+          </li>
+          <li>
+            Er wird
+            <input type="text" data-answer="von den" data-label="19" />
+            Kollegen sehr geschätzt. (von / die)
+          </li>
+          <li>
+            Die Sicht wurde
+            <input type="text" data-answer="durch den" data-label="20" />
+            Nebel behindert. (durch / der)
+          </li>
+          <li>
+            Aktiv: Wir haben den Termin abgesagt. Passiv: Der Termin
+            <input type="text" data-answer="ist abgesagt worden" data-label="21" />.
+          </li>
+          <li>
+            Aktiv: Jemand stört mich. Passiv: Ich
+            <input type="text" data-answer="werde gestört" data-label="22" />.
+          </li>
+          <li>
+            Das Konzert wurde
+            <input type="text" data-answer="von dem" data-label="23" />
+            Dirigenten geleitet. (von / der)
+          </li>
+          <li>
+            Die Krise wurde
+            <input type="text" data-answer="durch den" data-label="24" />
+            Krieg verursacht. (durch / der)
+          </li>
+          <li>
+            Aktiv: Man darf hier nicht rauchen. Passiv: Hier
+            <input type="text" data-answer="darf" data-label="25 Teil 1" />
+            nicht
+            <input type="text" data-answer="geraucht werden" data-label="25 Teil 2" />.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <button class="btn" id="check-btn">Antworten prüfen</button>
+        <div class="results" id="results" hidden>
+          <h2>Ergebnisse</h2>
+          <div id="results-list"></div>
+          <p class="muted" id="score"></p>
+        </div>
+      </section>
+      <details>
+        <summary>Lösungen</summary>
+        <p class="muted">
+          1 von dem, 2 durch den, 3 von dem, 4 durch den, 5 von einem, 6 durch das,
+          7 wird gebaut, 8 werden geprüft, 9 wurde gestohlen, 10 bin eingeladen worden,
+          11 von dem, 12 durch das, 13 von dem, 14 durch die, 15 wurde/gesehen,
+          16 muss geändert werden, 17 von der, 18 durch den, 19 von den, 20 durch den,
+          21 ist abgesagt worden, 22 werde gestört, 23 von dem, 24 durch den,
+          25 darf/geraucht werden.
+        </p>
+      </details>
+    </main>
+  </body>
+</html>

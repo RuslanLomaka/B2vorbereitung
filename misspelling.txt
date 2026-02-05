@@ -1,0 +1,171 @@
+file path: static/topics/12-satzbau.html, file name: 12-satzbau.html, line number: 24, concrete misspelling: Praepositional-Objekt, correct spelling: Präpositionalobjekt
+file path: static/topics/04-konjunktiv.html, file name: 04-konjunktiv.html, line number: 26, concrete misspelling: Ratschlaege, correct spelling: Ratschläge
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 21, concrete misspelling: Erklaerungen, correct spelling: Erklärungen
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 50, concrete misspelling: faehrst, correct spelling: fährst
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 55, concrete misspelling: faehrt, correct spelling: fährt
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 75, concrete misspelling: Naechsten, correct spelling: Nächsten
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 80, concrete misspelling: Muendliche, correct spelling: Mündliche
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 83, concrete misspelling: Praesentation, correct spelling: Präsentation
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 110, concrete misspelling: Regelmaessige, correct spelling: Regelmäßige
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 114, concrete misspelling: Unregelmaessige, correct spelling: Unregelmäßige
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 186, concrete misspelling: hinzufuegen, correct spelling: hinzufügen
+file path: static/topics/02-zeiten.html, file name: 02-zeiten.html, line number: 198, concrete misspelling: praezise, correct spelling: präzise
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 28, concrete misspelling: Praefix, correct spelling: Präfix
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 37, concrete misspelling: Praefix, correct spelling: Präfix
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 41, concrete misspelling: spaeter, correct spelling: später
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 46, concrete misspelling: Praefixe, correct spelling: Präfixe
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 80, concrete misspelling: Praefix, correct spelling: Präfix
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 92, "Häufige nicht trennbare Praefixe:", concrete misspelling: Praefixe, correct spelling: Präfixe
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 104, "Achtung: Praefixe wie "durch-", "Über-", "unter-", "um-" koennen", concrete misspelling: Praefixe, correct spelling: Präfixe
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 104, "Achtung: Praefixe wie "durch-", "Über-", "unter-", "um-" koennen", concrete misspelling: koennen, correct spelling: können
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 140, "<td>Wir <strong>müssen</strong> heute laenger <strong>arbeiten</strong>.</td>", concrete misspelling: laenger, correct spelling: länger
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 144, "<td>..., weil wir heute laenger <strong>arbeiten müssen</strong>.</td>", concrete misspelling: laenger, correct spelling: länger
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 158, "Häufige Modalverben: duerfen, koennen, mögen, müssen, sollen, wollen.", concrete misspelling: duerfen, correct spelling: dürfen
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 158, "Häufige Modalverben: duerfen, koennen, mögen, müssen, sollen, wollen.", concrete misspelling: koennen, correct spelling: können
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 158, "Häufige Modalverben: duerfen, koennen, mögen, müssen, sollen, wollen.", concrete misspelling: moegen, correct spelling: mögen
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 164, "<li>Praefix im Hauptsatz vergessen: "Ich rufe dich an."</li>", concrete misspelling: Praefix, correct spelling: Präfix
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 207, "Du kannst einzelne Seiten leicht hinzufuegen", concrete misspelling: hinzufuegen, correct spelling: hinzufügen
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 219, "Übung 3: Verben mit festen Pr?positionen", concrete misspelling: Pr?positionen, correct spelling: Präpositionen
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 220, "Level 3: Den richtigen Kasus waehlen.", concrete misspelling: waehlen, correct spelling: wählen
+file path: static/topics/01-verben.html, file name: 01-verben.html, line number: 228, "Level 5: Formelle Sprache f?r Fortgeschrittene.", concrete misspelling: f?r, correct spelling: für
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 56, concrete misspelling: (fuehren / bringen), correct spelling: (führen / bringen)
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 60, concrete misspelling: (ueben), correct spelling: (üben)
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 76, concrete misspelling: Ruecksicht, correct spelling: Rücksicht
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 92, concrete misspelling: spaeter, correct spelling: später
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 108, concrete misspelling: ausser, correct spelling: außer
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 108, concrete misspelling: frage, correct spelling: Frage
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 116, concrete misspelling: Unterstuetzung, correct spelling: Unterstützung
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 128, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 131, concrete misspelling: abschluss, correct spelling: Abschluss
+file path: static/ubungen/02-zeiten-ubung-5.html, file name: 02-zeiten-ubung-5.html, line number: 132, concrete misspelling: frage, correct spelling: Frage
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 38, concrete misspelling: Haende, correct spelling: Hände
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 46, concrete misspelling: Koennt, correct spelling: Könnt
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 90, concrete misspelling: Cafe, correct spelling: Café
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 94, concrete misspelling: Loesung, correct spelling: Lösung
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 106, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 122, concrete misspelling: kaemme, correct spelling: kämme
+file path: static/ubungen/02-zeiten-ubung-4.html, file name: 02-zeiten-ubung-4.html, line number: 142, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 34, concrete misspelling: fuer die, correct spelling: für die
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 38, concrete misspelling: fuer die, correct spelling: für die
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 78, concrete misspelling: haengt, correct spelling: hängt
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 86, concrete misspelling: Kaelte, correct spelling: Kälte
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 106, concrete misspelling: Gaeste, correct spelling: Gäste
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 110, concrete misspelling: gehoert, correct spelling: gehört
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 126, concrete misspelling: fuer die, correct spelling: für die
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 130, concrete misspelling: verlaesst, correct spelling: verlässt
+file path: static/ubungen/02-zeiten-ubung-3.html, file name: 02-zeiten-ubung-3.html, line number: 158, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 42, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 46, concrete misspelling: muessen, correct spelling: müssen
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 47, concrete misspelling: Ueberstunden, correct spelling: Überstunden
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 54, concrete misspelling: Frueher, correct spelling: Früher
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 55, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 59, concrete misspelling: Buero, correct spelling: Büro
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 62, concrete misspelling: hoeflich: koennen, correct spelling: höflich: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 78, concrete misspelling: koennt, correct spelling: könnt
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 79, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 86, concrete misspelling: Gemuese, correct spelling: Gemüse
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 90, concrete misspelling: muesst, correct spelling: müsst
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 95, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 103, concrete misspelling: kuemmern, correct spelling: kümmern
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 106, concrete misspelling: moechtest, correct spelling: möchtest
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 110, concrete misspelling: muessen, correct spelling: müssen
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 119, concrete misspelling: stoeren, correct spelling: stören
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 123, concrete misspelling: koennen, correct spelling: können
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 130, concrete misspelling: frueher, correct spelling: früher
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 142, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 144, concrete misspelling: koennten, correct spelling: könnten
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 145, concrete misspelling: koennt, correct spelling: könnt
+file path: static/ubungen/02-zeiten-ubung-2.html, file name: 02-zeiten-ubung-2.html, line number: 146, concrete misspelling: moechtest, correct spelling: möchtest
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 29, concrete misspelling: hoere, correct spelling: höre
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 30, concrete misspelling: aufhoeren, correct spelling: aufhören
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 34, concrete misspelling: erklaert, correct spelling: erklärt
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 35, concrete misspelling: erklaeren, correct spelling: erklären
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 46, concrete misspelling: sorgfaeltig, correct spelling: sorgfältig
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 46, concrete misspelling: ueberprüfen, correct spelling: überprüfen
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 86, concrete misspelling: traegt, correct spelling: trägt
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 110, concrete misspelling: Verspaetung, correct spelling: Verspätung
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 115, concrete misspelling: Praesentation, correct spelling: Präsentation
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 119, concrete misspelling: aendert, correct spelling: ändert
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 120, concrete misspelling: aendern, correct spelling: ändern
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 123, concrete misspelling: frueh, correct spelling: früh
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 131, concrete misspelling: Muell, correct spelling: Müll
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 157, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 159, concrete misspelling: hoere, correct spelling: höre
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 159, concrete misspelling: erklaert, correct spelling: erklärt
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 159, concrete misspelling: ueberprüfen, correct spelling: überprüfen
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 162, concrete misspelling: traegt, correct spelling: trägt
+file path: static/ubungen/02-zeiten-ubung-1.html, file name: 02-zeiten-ubung-1.html, line number: 165, concrete misspelling: aendert, correct spelling: ändert
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 46, concrete misspelling: raeumten, correct spelling: räumten
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 50, concrete misspelling: veraendert, correct spelling: verändert
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 51, concrete misspelling: veraendern, correct spelling: verändern
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 70, concrete misspelling: Strasse, correct spelling: Straße
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 74, concrete misspelling: spaet, correct spelling: spät
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 102, concrete misspelling: abschliessen, correct spelling: abschließen
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 106, concrete misspelling: Schluessel, correct spelling: Schlüssel
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 111, concrete misspelling: Buero, correct spelling: Büro
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 122, concrete misspelling: gefruehstueckt, correct spelling: gefrühstückt
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 123, concrete misspelling: fruehstuecken, correct spelling: frühstücken
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 155, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/01-verben-ubung-3.html, file name: 01-verben-ubung-3.html, line number: 158, concrete misspelling: veraendert, correct spelling: verändert
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 14, concrete misspelling: ausdruecken, correct spelling: ausdrücken
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 23, concrete misspelling: erlaeuterte, correct spelling: erläuterte
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 24, concrete misspelling: waehrend, correct spelling: während
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 24, concrete misspelling: erlaeutern, correct spelling: erläutern
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 27, concrete misspelling: Frueher, correct spelling: Früher
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 28, concrete misspelling: ausschliesslich, correct spelling: ausschließlich
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 55, concrete misspelling: aeusserten, correct spelling: äußerten
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 56, concrete misspelling: aeussern, correct spelling: äußern
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 63, concrete misspelling: Loesung, correct spelling: Lösung
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 67, concrete misspelling: Verzoegerungen, correct spelling: Verzögerungen
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 75, concrete misspelling: schliessen, correct spelling: schließen
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 83, concrete misspelling: waehrend, correct spelling: während
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 95, concrete misspelling: Partnerbuero, correct spelling: Partnerbüro
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 103, concrete misspelling: bestaetigte, correct spelling: bestätigte
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 104, concrete misspelling: bestaetigen, correct spelling: bestätigen
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 115, concrete misspelling: Geschaeftsleitung, correct spelling: Geschäftsleitung
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 140, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 143, concrete misspelling: ausschliesslich, correct spelling: ausschließlich
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 145, concrete misspelling: aeusserten, correct spelling: äußerten
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 147, concrete misspelling: Loesung, correct spelling: Lösung
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 153, concrete misspelling: waehrend, correct spelling: während
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 157, concrete misspelling: besass, correct spelling: besaß
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 158, concrete misspelling: Partnerbuero, correct spelling: Partnerbüro
+file path: static/ubungen/01-verben-ubung-2.html, file name: 01-verben-ubung-2.html, line number: 160, concrete misspelling: bestaetigte, correct spelling: bestätigte
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 30, concrete misspelling: Naechste, correct spelling: Nächste
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 38, concrete misspelling: abschliessen, correct spelling: abschließen
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 50, concrete misspelling: Praesentation, correct spelling: Präsentation
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 54, concrete misspelling: veraendert, correct spelling: verändert
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 55, concrete misspelling: veraendern, correct spelling: verändern
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 66, concrete misspelling: aufhoeren, correct spelling: aufhören
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 67, concrete misspelling: aufhoeren, correct spelling: aufhören
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 82, concrete misspelling: Buero, correct spelling: Büro
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 94, concrete misspelling: naechste, correct spelling: nächste
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 94, concrete misspelling: darueber, correct spelling: darüber
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 134, concrete misspelling: bewaeltigen, correct spelling: bewältigen
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 148, concrete misspelling: Loesungen, correct spelling: Lösungen
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 152, concrete misspelling: aufhoeren, correct spelling: aufhören
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 154, concrete misspelling: veraendert, correct spelling: verändert
+file path: static/ubungen/01-verben-ubung-4.html, file name: 01-verben-ubung-4.html, line number: 158, concrete misspelling: bewaeltigen, correct spelling: bewältigen
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 21, concrete misspelling: aufgeklaert, correct spelling: aufgeklärt
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 22, concrete misspelling: aufklaeren, correct spelling: aufklären
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 28, concrete misspelling: abschliessen, correct spelling: abschließen
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 38, concrete misspelling: naechsten, correct spelling: nächsten
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 42, concrete misspelling: uebersehen, correct spelling: übersehen
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 54, concrete misspelling: Frueher, correct spelling: Früher
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 62, concrete misspelling: Befoerderung, correct spelling: Beförderung
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 102, concrete misspelling: Buero, correct spelling: Büro
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 122, concrete misspelling: spaet, correct spelling: spät
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 128, concrete misspelling: Praesentation, correct spelling: Präsentation
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 128, concrete misspelling: frueh, correct spelling: früh
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 160, concrete misspelling: Muenchen, correct spelling: München
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 168, concrete misspelling: zurueckgeben, correct spelling: zurückgeben
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 198, concrete misspelling: aufgeklaert, correct spelling: aufgeklärt
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 199, concrete misspelling: abschliessen, correct spelling: abschließen
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 200, concrete misspelling: uebersehen, correct spelling: übersehen
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 202, concrete misspelling: Befoerderung, correct spelling: Beförderung
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 206, concrete misspelling: Buero, correct spelling: Büro
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 207, concrete misspelling: spaet, correct spelling: spät
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 208, concrete misspelling: Praesentation, correct spelling: Präsentation
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 208, concrete misspelling: frueh, correct spelling: früh
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 210, concrete misspelling: Muenchen, correct spelling: München
+file path: static/ubungen/01-verben-ubung-5.html, file name: 01-verben-ubung-5.html, line number: 211, concrete misspelling: zurueckgeben, correct spelling: zurückgeben

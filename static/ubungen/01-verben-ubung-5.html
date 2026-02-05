@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Übung 5 - Nomen-Verb-Verbindungen</title>
+    <link rel="stylesheet" href="../topic.css" />
+    <script src="uebung.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="back" href="../topics/01-verben.html">Zurück zu Kapitel 1</a>
+      <h1>Übung 5: Nomen-Verb-Verbindungen</h1>
+      <p class="lead">Level 5: Formelle Sprache für Fortgeschrittene.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Aufgabe</h2>
+        <p class="muted">Setze die passende Verbindung ein.</p>
+        <ol>
+          <li>
+            Wir müssen endlich eine Entscheidung
+            <input type="text" data-answer="treffen" data-label="1" />.
+            (treffen)
+          </li>
+          <li>
+            Er hat einen Antrag auf Verlängerung
+            <input type="text" data-answer="gestellt" data-label="2" />.
+            (stellen)
+          </li>
+          <li>
+            Wir sollten dieses Thema zur Sprache
+            <input type="text" data-answer="bringen" data-label="3" />.
+            (bringen)
+          </li>
+          <li>
+            Der Zeuge hat eine wichtige Aussage
+            <input type="text" data-answer="gemacht" data-label="4" />.
+            (machen)
+          </li>
+          <li>
+            Er
+            <input type="text" data-answer="nimmt" data-label="5 Teil 1" />
+            an der Konferenz
+            <input type="text" data-answer="teil" data-label="5 Teil 2" />.
+            (Teil / nehmen)
+          </li>
+          <li>
+            Die Firma möchte die Kosten unter Kontrolle
+            <input type="text" data-answer="bringen" data-label="6" />.
+            (bringen)
+          </li>
+          <li>
+            Wir müssen das Projekt zu Ende
+            <input type="text" data-answer="bringen" data-label="7" />.
+            (führen / bringen)
+          </li>
+          <li>
+            Sie hat Kritik an dem neuen Gesetz
+            <input type="text" data-answer="geübt" data-label="8" />.
+            (üben)
+          </li>
+          <li>
+            Darf ich Ihnen eine Frage
+            <input type="text" data-answer="stellen" data-label="9" />?
+            (stellen)
+          </li>
+          <li>
+            Das steht heute nicht zur
+            <input type="text" data-answer="Diskussion" data-label="10" />.
+            (Diskussion)
+          </li>
+          <li>
+            Er hat mir Versprechungen
+            <input type="text" data-answer="gemacht" data-label="11" />,
+            die er nicht hielt. (machen)
+          </li>
+          <li>
+            Wir müssen auf die Umwelt Rücksicht
+            <input type="text" data-answer="nehmen" data-label="12" />.
+            (nehmen)
+          </li>
+          <li>
+            Der Chef hat eine Rede
+            <input type="text" data-answer="gehalten" data-label="13" />.
+            (halten)
+          </li>
+          <li>
+            Ich möchte meinen Dank zum Ausdruck
+            <input type="text" data-answer="bringen" data-label="14" />.
+            (bringen)
+          </li>
+          <li>
+            Sie hat einen großen Beitrag zum Erfolg
+            <input type="text" data-answer="geleistet" data-label="15" />.
+            (leisten)
+          </li>
+          <li>
+            Wir kommen heute zu einem
+            <input type="text" data-answer="Abschluss" data-label="16" />.
+            (Abschluss)
+          </li>
+          <li>
+            Er hat die Flucht
+            <input type="text" data-answer="ergriffen" data-label="17" />.
+            (ergreifen)
+          </li>
+          <li>
+            Die Verhandlungen nehmen viel Zeit in
+            <input type="text" data-answer="Anspruch" data-label="18" />.
+            (Anspruch)
+          </li>
+          <li>
+            Wir müssen den Kontakt zu den Kunden
+            <input type="text" data-answer="halten" data-label="19" />.
+            (halten)
+          </li>
+          <li>
+            Er hat mir Bescheid
+            <input type="text" data-answer="gegeben" data-label="20" />,
+            dass er später kommt. (geben)
+          </li>
+          <li>
+            Sie hat Widerstand gegen die Pläne
+            <input type="text" data-answer="geleistet" data-label="21" />.
+            (leisten)
+          </li>
+          <li>
+            Ich
+            <input type="text" data-answer="habe" data-label="22" />
+            die Absicht, nächstes Jahr zu reisen. (haben)
+          </li>
+          <li>
+            Das steht außer
+            <input type="text" data-answer="Frage" data-label="23" />.
+            (Frage)
+          </li>
+          <li>
+            Wir sollten einen Kompromiss
+            <input type="text" data-answer="schließen" data-label="24" />.
+            (schließen)
+          </li>
+          <li>
+            Er hat Unterstützung für sein Projekt
+            <input type="text" data-answer="gefunden" data-label="25" />.
+            (finden)
+          </li>
+        </ol>
+      </section>
+      <section>
+        <button class="btn" id="check-btn">Antworten prüfen</button>
+        <div class="results" id="results" hidden>
+          <h2>Ergebnisse</h2>
+          <div id="results-list"></div>
+          <p class="muted" id="score"></p>
+        </div>
+      </section>
+      <details>
+        <summary>Lösungen</summary>
+        <p class="muted">
+          1 treffen, 2 gestellt, 3 bringen, 4 gemacht, 5 nimmt/teil,
+          6 bringen, 7 bringen, 8 geübt, 9 stellen, 10 Diskussion,
+          11 gemacht, 12 nehmen, 13 gehalten, 14 bringen, 15 geleistet,
+          16 Abschluss, 17 ergriffen, 18 Anspruch, 19 halten, 20 gegeben,
+          21 geleistet, 22 habe, 23 Frage, 24 schließen, 25 gefunden.
+        </p>
+      </details>
+    </main>
+  </body>
+</html>

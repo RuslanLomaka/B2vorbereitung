@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Übung 2 - Modalverben (B2 Fokus)</title>
+    <link rel="stylesheet" href="../topic.css" />
+    <script src="uebung.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="back" href="../topics/01-verben.html">Zurück zu Kapitel 1</a>
+      <h1>Übung 2: Modalverben (B2 Fokus)</h1>
+      <p class="lead">Level 2: Nuancen und korrekte Konjugation.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Aufgabe</h2>
+        <p class="muted">Setze das passende Modalverb ein.</p>
+        <ol>
+          <li>
+            In diesem Bereich
+            <input type="text" data-answer="darf" data-label="1" />
+            man absolut nicht rauchen. (dürfen)
+          </li>
+          <li>
+            Ich
+            <input type="text" data-answer="will" data-label="2" />
+            mich für die Stelle bewerben. (wollen)
+          </li>
+          <li>
+            Der Arzt sagt, ich
+            <input type="text" data-answer="soll" data-label="3" />
+            mehr Sport treiben. (sollen)
+          </li>
+          <li>
+            <input type="text" data-answer="kannst" data-label="4" />
+            du mir bei den Hausaufgaben helfen? (können)
+          </li>
+          <li>
+            Wir
+            <input type="text" data-answer="müssen" data-label="5" />
+            leider Überstunden machen. (müssen)
+          </li>
+          <li>
+            Er
+            <input type="text" data-answer="mag" data-label="6" />
+            keine Pilze, er isst sie nie. (mögen)
+          </li>
+          <li>
+            Früher
+            <input type="text" data-answer="konnte" data-label="7" />
+            ich sehr gut Klavier spielen. (Präteritum: können)
+          </li>
+          <li>
+            Sie
+            <input type="text" data-answer="musste" data-label="8" />
+            gestern lange im Büro bleiben. (Präteritum: müssen)
+          </li>
+          <li>
+            <input type="text" data-answer="könnten" data-label="9" />
+            Sie mir bitte sagen, wie spät es ist? (hoeflich: können)
+          </li>
+          <li>
+            Kinder
+            <input type="text" data-answer="dürfen" data-label="10" />
+            im Unterricht nicht laut sprechen. (dürfen)
+          </li>
+          <li>
+            Wir
+            <input type="text" data-answer="sollten" data-label="11" />
+            unbedingt an unserer Aussprache arbeiten. (sollen)
+          </li>
+          <li>
+            Warum
+            <input type="text" data-answer="könnt" data-label="12" />
+            ihr nicht zur Party kommen? (können)
+          </li>
+          <li>
+            Man
+            <input type="text" data-answer="darf" data-label="13" />
+            hier nur mit Genehmigung parken. (dürfen)
+          </li>
+          <li>
+            Ich
+            <input type="text" data-answer="wollte" data-label="14" />
+            als Kind kein Gemüse essen. (Präteritum: wollen)
+          </li>
+          <li>
+            Ihr
+            <input type="text" data-answer="müsst" data-label="15" />
+            die Sicherheitsvorschriften genau beachten. (müssen)
+          </li>
+          <li>
+            Wer
+            <input type="text" data-answer="kann" data-label="16" />
+            diese schwere Frage beantworten? (können)
+          </li>
+          <li>
+            Wir
+            <input type="text" data-answer="wollen" data-label="17" />
+            Ihnen für Ihre Hilfe danken. (wollen)
+          </li>
+          <li>
+            Er
+            <input type="text" data-answer="soll" data-label="18" />
+            sich laut Vertrag um die Wartung kümmern. (sollen)
+          </li>
+          <li>
+            <input type="text" data-answer="möchtest" data-label="19" />
+            du ein Glas Wasser haben? (mögen)
+          </li>
+          <li>
+            Wir
+            <input type="text" data-answer="müssen" data-label="20" />
+            das Meeting leider verschieben. (müssen)
+          </li>
+          <li>
+            Man
+            <input type="text" data-answer="sollte" data-label="21" />
+            die Natur vor Verschmutzung schützen. (sollen)
+          </li>
+          <li>
+            <input type="text" data-answer="darf" data-label="22" />
+            ich Sie kurz stören? (dürfen)
+          </li>
+          <li>
+            Sie
+            <input type="text" data-answer="kann" data-label="23" />
+            fliessend drei Sprachen sprechen. (können)
+          </li>
+          <li>
+            Wir
+            <input type="text" data-answer="dürfen" data-label="24" />
+            den Termin nicht vergessen. (dürfen)
+          </li>
+          <li>
+            Ich
+            <input type="text" data-answer="wollte" data-label="25" />
+            früher immer Pilot werden. (Präteritum: wollen)
+          </li>
+        </ol>
+      </section>
+      <section>
+        <button class="btn" id="check-btn">Antworten prüfen</button>
+        <div class="results" id="results" hidden>
+          <h2>Ergebnisse</h2>
+          <div id="results-list"></div>
+          <p class="muted" id="score"></p>
+        </div>
+      </section>
+      <details>
+        <summary>Lösungen</summary>
+        <p class="muted">
+          1 darf, 2 will, 3 soll, 4 kannst, 5 müssen, 6 mag, 7 konnte, 8 musste,
+          9 könnten, 10 dürfen, 11 sollten, 12 könnt, 13 darf, 14 wollte,
+          15 müsst, 16 kann, 17 wollen, 18 soll, 19 möchtest, 20 müssen,
+          21 sollte, 22 darf, 23 kann, 24 dürfen, 25 wollte.
+        </p>
+      </details>
+    </main>
+  </body>
+</html>
