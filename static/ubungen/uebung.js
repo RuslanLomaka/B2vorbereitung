@@ -1,5 +1,52 @@
 ﻿function normalizeText(text) {
-  return text.toLowerCase().replace(/\s+/g, " ").trim();
+  return text
+    .toLowerCase()
+    .replace(/[\u00e4\u00f6\u00fc]/g, (ch) => ({ "\u00e4": "a", "\u00f6": "o", "\u00fc": "u" }[ch]))
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isFlexibleMatch(expected, actual) {
+  const normExpected = normalizeText(expected);
+  const normActual = normalizeText(actual);
+
+  if (normExpected === normActual) return true;
+  if (!normExpected || !normActual) return false;
+
+  const expectedLen = normExpected.length;
+  const actualLen = normActual.length;
+
+  if (actualLen === expectedLen) {
+    let mismatchIndex = -1;
+    for (let i = 0; i < expectedLen; i += 1) {
+      if (normExpected[i] !== normActual[i]) {
+        if (mismatchIndex !== -1) return false;
+        mismatchIndex = i;
+      }
+    }
+    return mismatchIndex !== -1 && mismatchIndex !== expectedLen - 1;
+  }
+
+  if (actualLen === expectedLen - 1) {
+    let skipped = false;
+    let i = 0;
+    let j = 0;
+    while (i < expectedLen && j < actualLen) {
+      if (normExpected[i] === normActual[j]) {
+        i += 1;
+        j += 1;
+        continue;
+      }
+      if (skipped) return false;
+      if (i === expectedLen - 1) return false;
+      skipped = true;
+      i += 1;
+    }
+    if (i === expectedLen - 1 && j === actualLen) return false;
+    return true;
+  }
+
+  return false;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -69,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
           actual = checked ? checked.value : "";
         }
 
-        const ok = normalizeText(expected) === normalizeText(actual);
+        const ok = isFlexibleMatch(expected, actual);
         if (!ok) groupOk = false;
         return { label, actual, expected, ok };
       });
