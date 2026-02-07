@@ -82,6 +82,28 @@
         margin: 0;
         color: var(--accent-2);
       }
+      .intro {
+        margin: 12px auto 24px;
+        max-width: 960px;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 10px 14px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+      .intro summary {
+        cursor: pointer;
+        font-weight: bold;
+        color: var(--accent);
+      }
+      .intro-content {
+        margin-top: 10px;
+        color: var(--text);
+        line-height: 1.5;
+      }
+      .intro-content p {
+        margin: 0 0 10px;
+      }
       footer {
         text-align: center;
         color: var(--muted);
@@ -101,14 +123,27 @@
 
     <main>
       <div class="section">
-        <h3>Einleitung</h3>
+        <h3>Einführung</h3>
       </div>
-      <div class="grid">
-        <a class="card" href="static/topics/einfuehrung.html">
-          <h2>Einführung</h2>
-          <p>Überblick, Ziele und Lernstrategie.</p>
-        </a>
-      </div>
+      <details class="intro">
+        <summary>So nutzt du diese Website</summary>
+        <div class="intro-content">
+          <p>
+            Wähle ein Kapitel aus der Übersicht. Dort findest du die Regeln und darunter die Übungen.
+            Jede Übung hat zwei Start-Buttons: <strong>Lernen</strong> (mit sofortigem Feedback) und
+            <strong>Prüfen</strong> (strenger, für Tests).
+          </p>
+          <p>
+            Im Prüfmodus bekommst du die Sätze einzeln, in zufälliger Reihenfolge. Die Fortschrittsanzeige
+            zeigt dir, welche Sätze bereits vollständig ausgefüllt sind. Nach dem Prüfen kannst du die
+            Antworten nicht mehr ändern.
+          </p>
+          <p>
+            Wenn du deinen Fortschritt speichern willst, gib deinen Namen ein und speichere das Ergebnis.
+            Im Journal siehst du alle gespeicherten Versuche und kannst Ergebnisse später ansehen.
+          </p>
+        </div>
+      </details>
 
       <div class="section">
         <h3>Kapitel</h3>
@@ -171,6 +206,10 @@
         <a class="card" href="static/topics/anhang.html">
           <h2>Anhang</h2>
           <p>Nützliche Listen und Übersichten.</p>
+        </a>
+        <a class="card" href="static/journal.html">
+          <h2>Journal</h2>
+          <p>Deine gespeicherten Versuche und Fortschritte.</p>
         </a>
       </div>
     </main>
