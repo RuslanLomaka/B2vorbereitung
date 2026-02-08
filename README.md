@@ -1,5 +1,8 @@
 # German B2 TELC Practice App
 
+**Author:** [Ruslan Lomaka](https://work.ruslanlomaka.org/)  
+**LinkedIn:** https://www.linkedin.com/in/ruslan-lomaka/
+
 ## Overview
 This project started from a practical need: preparing for the German TELC B2 exam.
 Instead of using generic tools, I built a lightweight, focused practice app tailored to
@@ -36,8 +39,6 @@ Progress and user data are stored locally using LocalStorage.
 - local persistence of results and attempts
 - ability to compare current performance with previous attempts
 
-Tip: Ask the bot/agent to analyze the existing features, suggest improvements, or
-identify gaps relevant for TELC B2 preparation.
 
 ## Data and Persistence
 - all data is saved locally in the browser
