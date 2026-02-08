@@ -176,6 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const exerciseTitle = exerciseTitleEl ? exerciseTitleEl.textContent.trim() : "Uebung";
   let saveModal = null;
   let checkModal = null;
+  let deleteModal = null;
   let checkPending = false;
 
   button.textContent = "Überprüfen";
@@ -653,6 +654,38 @@ document.addEventListener("DOMContentLoaded", () => {
     return modal;
   };
 
+  const ensureDeleteModal = () => {
+    if (deleteModal) return deleteModal;
+    const modal = document.createElement("div");
+    modal.className = "save-modal";
+    modal.hidden = true;
+    modal.innerHTML = `
+      <div class="save-modal-backdrop"></div>
+      <div class="save-modal-card" role="dialog" aria-modal="true" aria-labelledby="delete-modal-title">
+        <h2 class="save-modal-title" id="delete-modal-title">Eintrag loeschen</h2>
+        <p class="muted" id="delete-modal-owner"></p>
+        <p class="muted">Tippe den Namen exakt wie gespeichert, um die Loeschung abzuschliessen.</p>
+        <label class="save-label" for="delete-modal-name">Name</label>
+        <input id="delete-modal-name" type="text" placeholder="Name exakt eingeben" />
+        <p class="warning-text" id="delete-modal-status" hidden>Name stimmt nicht.</p>
+        <div class="save-modal-actions">
+          <button class="btn" type="button" id="delete-modal-confirm">Eintrag loeschen</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    const backdrop = modal.querySelector(".save-modal-backdrop");
+    [backdrop].forEach((el) => {
+      if (!el) return;
+      el.addEventListener("click", () => {
+        modal.hidden = true;
+        document.body.style.overflow = "";
+      });
+    });
+    deleteModal = modal;
+    return modal;
+  };
+
   const openCheckModal = (onConfirm) => {
     if (checkPending) return;
     checkPending = true;
@@ -663,6 +696,37 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.hidden = true;
       document.body.style.overflow = "";
       checkPending = false;
+      if (typeof onConfirm === "function") onConfirm();
+      confirm.removeEventListener("click", handler);
+    };
+    if (confirm) {
+      confirm.addEventListener("click", handler);
+    }
+    modal.hidden = false;
+    document.body.style.overflow = "hidden";
+  };
+
+  const openDeleteModal = ({ expectedName, onConfirm }) => {
+    const modal = ensureDeleteModal();
+    if (!modal) return;
+    const nameInput = modal.querySelector("#delete-modal-name");
+    const status = modal.querySelector("#delete-modal-status");
+    const ownerText = modal.querySelector("#delete-modal-owner");
+    const confirm = modal.querySelector("#delete-modal-confirm");
+    if (nameInput) nameInput.value = "";
+    if (status) status.hidden = true;
+    if (ownerText) {
+      ownerText.textContent = `Dieser Eintrag wurde von "${expectedName}" erstellt.`;
+    }
+    const handler = () => {
+      const name = nameInput ? nameInput.value.trim() : "";
+      if (name !== expectedName) {
+        if (status) status.hidden = false;
+        if (nameInput) nameInput.focus();
+        return;
+      }
+      modal.hidden = true;
+      document.body.style.overflow = "";
       if (typeof onConfirm === "function") onConfirm();
       confirm.removeEventListener("click", handler);
     };
@@ -981,6 +1045,30 @@ document.addEventListener("DOMContentLoaded", () => {
         url.searchParams.delete("view");
         retry.setAttribute("href", url.toString());
         resultsSection.appendChild(retry);
+
+        const deleteBtn = document.createElement("button");
+        deleteBtn.className = "btn btn-retry btn-delete";
+        deleteBtn.type = "button";
+        deleteBtn.textContent = "Eintrag im Journal loeschen";
+        deleteBtn.addEventListener("click", () => {
+          const expectedName = String(attempt.name || "Unbekannt");
+          openDeleteModal({
+            expectedName,
+            onConfirm: () => {
+              try {
+                const raw = localStorage.getItem("uebungAttempts");
+                const data = raw ? JSON.parse(raw) : [];
+                const next = data.filter((item) => String(item.id) !== String(viewAttemptId));
+                localStorage.setItem("uebungAttempts", JSON.stringify(next));
+                const journalUrl = new URL("../journal.html", window.location.href);
+                window.location.href = journalUrl.toString();
+              } catch (err) {
+                // Ignore deletion failures silently to avoid breaking the view page.
+              }
+            },
+          });
+        });
+        resultsSection.appendChild(deleteBtn);
       }
     }
   }

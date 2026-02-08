@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
@@ -26,6 +26,22 @@
       header {
         padding: 36px 20px 10px;
         text-align: center;
+      }
+      .credits-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 8px;
+      }
+      .credits-top a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .credits-top a:hover {
+        text-decoration: underline;
       }
       h1 {
         margin: 0 0 8px;
@@ -114,6 +130,13 @@
   </head>
   <body>
     <header>
+      <div class="credits-top">
+        <span>Created by <a href="https://work.ruslanlomaka.org/" target="_blank" rel="noopener">Ruslan Lomaka</a></span>
+        <span style="opacity:.55;">|</span>
+        <a href="https://www.linkedin.com/in/ruslan-lomaka/" target="_blank" rel="noopener">LinkedIn</a>
+        <span style="opacity:.55;">|</span>
+        <a href="https://github.com/RuslanLomaka/B2vorbereitung.git" target="_blank" rel="noopener">GitHub</a>
+      </div>
       <h1>Grammatiktraining Deutsch B2</h1>
       <p class="lead">
         Kursübersicht nach dem Aufbau von "Grammatiktraining Deutsch für B2".
@@ -217,3 +240,5 @@
     <footer>Stand: B2 Kursstruktur - Dummy-Seiten</footer>
   </body>
 </html>
+
+

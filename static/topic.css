@@ -20,6 +20,22 @@ header {
   padding: 30px 20px 12px;
   text-align: center;
 }
+.credits-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.credits-top a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.credits-top a:hover {
+  text-decoration: underline;
+}
 h1 {
   margin: 8px 0 6px;
   font-size: 30px;
@@ -89,6 +105,8 @@ input[type="text"] {
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
 }
 .btn:hover {
   filter: brightness(0.95);
@@ -343,6 +361,9 @@ details {
 .btn-retry {
   display: inline-block;
   margin-top: 12px;
+}
+.btn-delete {
+  margin-left: 10px;
 }
 .save-modal {
   position: fixed;
