@@ -167,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let warningEl = null;
   let completionListenersBound = false;
   let hardNavBound = false;
+  let copyButton = null;
   const buttonHome = { parent: button.parentNode, nextSibling: button.nextSibling };
   let lastFocusedInput = null;
   const resultsSection = button.closest("section");
@@ -255,6 +256,132 @@ document.addEventListener("DOMContentLoaded", () => {
     const nextPos = start + value.length;
     input.setSelectionRange(nextPos, nextPos);
     input.focus();
+  };
+
+  const buildResultsText = () => {
+    const lines = [];
+    const title = exerciseTitle || "Uebung";
+    const modeLabel = currentMode || (hardState.active ? "hard" : "soft");
+    const match = modeLabel === "hard" ? isStrictMatch : isFlexibleMatch;
+    lines.push(`Test: ${title}`);
+    lines.push(`Mode: ${modeLabel}`);
+    lines.push("");
+    const targets = getAllTargets();
+    const groups = new Map();
+    targets.forEach((el, idx) => {
+      const li = el.closest("li");
+      const key = li || el;
+      if (!groups.has(key)) {
+        groups.set(key, {
+          key,
+          items: [],
+          label: li ? `Item ${groups.size + 1}` : el.dataset.label || `Item ${idx + 1}`,
+        });
+      }
+      groups.get(key).items.push(el);
+    });
+    let correctGroups = 0;
+    groups.forEach((group) => {
+      const sentence = extractSentence(group.key);
+      let groupOk = true;
+      lines.push(`${group.label}:`);
+      lines.push(`Sentence: ${sentence || "(kein Satz gefunden)"}`);
+      group.items.forEach((el, idx) => {
+        const expected = el.dataset.answer || "";
+        const label = el.dataset.label || `Teil ${idx + 1}`;
+        let actual = "";
+        if (el.tagName === "INPUT") {
+          actual = el.value;
+        } else {
+          const checked = el.querySelector("input:checked");
+          actual = checked ? checked.value : "";
+        }
+        const ok = match(expected, actual);
+        if (!ok) groupOk = false;
+        lines.push(
+          `${label} | Your answer: ${actual || "(empty)"} | Correct: ${expected || "(empty)"} | Result: ${
+            ok ? "correct" : "wrong"
+          }`
+        );
+      });
+      if (groupOk) correctGroups += 1;
+      lines.push("");
+    });
+    const totalGroups = groups.size;
+    const accuracy = totalGroups ? Math.round((correctGroups / totalGroups) * 100) : 0;
+    lines.push(`Score: ${correctGroups}/${totalGroups}`);
+    lines.push(`Accuracy: ${accuracy}%`);
+    lines.push(
+      "Prompt: I have completed a German test: " +
+        `${title}.\n\n` +
+        "My score is " +
+        `${correctGroups}/${totalGroups} (${accuracy}%).\n\n` +
+        "Please analyze my results sentence by sentence.\n\n" +
+        "For each wrong sentence:\n" +
+        "- Explain the mistake in very simple German (level A2)\n" +
+        "- Show the correct form\n" +
+        "- Give a short rule (simple words)\n" +
+        "- Give one more example sentence\n\n" +
+        "After that, give:\n\n" +
+        "1. General mistakes I make (patterns if possible)\n" +
+        "2. Clear grammar rules I should learn\n" +
+        "3. Practical learning tips (how to practice)\n" +
+        "4. What I should focus on next\n\n" +
+        "Important:\n" +
+        "- Write only in very easy German (A2 level)\n" +
+        "- Use short sentences\n" +
+        "- No complex grammar explanations\n" +
+        "- No long theory\n" +
+        "- Be clear and practical"
+    );
+    return lines.join("\n");
+  };
+
+  const ensureCopyButton = () => {
+    if (!resultsSection) return null;
+    if (document.getElementById("copy-results-btn")) {
+      return document.getElementById("copy-results-btn");
+    }
+    const copyButton = document.createElement("button");
+    copyButton.type = "button";
+    copyButton.className = "btn";
+    copyButton.id = "copy-results-btn";
+    copyButton.textContent = "Kopiere Ergebnisse/Report";
+    copyButton.addEventListener("click", async () => {
+      const text = buildResultsText();
+      let copied = false;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        try {
+          await navigator.clipboard.writeText(text);
+          copied = true;
+        } catch (err) {
+          copied = false;
+        }
+      }
+      if (!copied) {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.setAttribute("readonly", "true");
+        textarea.style.position = "absolute";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+          copied = document.execCommand("copy");
+        } catch (err) {
+          copied = false;
+        }
+        document.body.removeChild(textarea);
+      }
+      const original = copyButton.textContent;
+      copyButton.textContent = copied ? "Copied!" : "Copy failed";
+      window.setTimeout(() => {
+        copyButton.textContent = original;
+      }, 1500);
+    });
+    copyButton.hidden = true;
+    resultsSection.appendChild(copyButton);
+    return copyButton;
   };
 
   const ensureSpecialKeys = () => {
@@ -1022,6 +1149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     scoreEl.textContent = `Punkte: ${correct} von ${groups.size}`;
     if (resultsSection) resultsSection.classList.remove("hard-hidden");
     results.hidden = false;
+    if (copyButton) copyButton.hidden = false;
     results.scrollIntoView({ behavior: "smooth" });
     if (hardState.active && !skipSave) {
       // Hard mode shows results only after all fields are filled and enables saving.
@@ -1036,6 +1164,8 @@ document.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     runCheck();
   });
+
+  copyButton = ensureCopyButton();
 
   if (viewMode) {
     let attempt = null;
