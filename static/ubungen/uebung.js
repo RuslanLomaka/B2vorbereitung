@@ -316,23 +316,31 @@ document.addEventListener("DOMContentLoaded", () => {
         `${title}.\n\n` +
         "My score is " +
         `${correctGroups}/${totalGroups} (${accuracy}%).\n\n` +
-        "Please analyze my results sentence by sentence.\n\n" +
-        "For each wrong sentence:\n" +
-        "- Explain the mistake in very simple German (level A2)\n" +
-        "- Show the correct form\n" +
-        "- Give a short rule (simple words)\n" +
-        "- Give one more example sentence\n\n" +
-        "After that, give:\n\n" +
-        "1. General mistakes I make (patterns if possible)\n" +
-        "2. Clear grammar rules I should learn\n" +
-        "3. Practical learning tips (how to practice)\n" +
-        "4. What I should focus on next\n\n" +
+        "Please analyze my results.\n\n" +
+        "First:\n" +
+        "- Summarize what I did well.\n" +
+        "- If many sentences are correct, describe them as my strong side.\n\n" +
+        "Then write: BUT\n\n" +
+        "After BUT:\n" +
+        "- Look at my mistakes.\n" +
+        "- Find patterns (same type of mistake).\n" +
+        "- Group similar mistakes together.\n" +
+        "- Explain each mistake type only once.\n" +
+        "- If a mistake appears many times, say that I should pay special attention to it.\n" +
+        "- If mistakes are different (different grammar topics), explain each one briefly.\n\n" +
+        "Do not analyze every sentence separately if the mistakes are the same.\n\n" +
+        "For each mistake type:\n" +
+        "- Explain the problem in very simple German (A2)\n" +
+        "- Give the correct rule (short)\n" +
+        "- Give one simple example\n\n" +
+        "At the end:\n" +
+        "- What grammar I should practice now\n" +
+        "- Simple tips for learning\n\n" +
         "Important:\n" +
         "- Write only in very easy German (A2 level)\n" +
         "- Use short sentences\n" +
-        "- No complex grammar explanations\n" +
-        "- No long theory\n" +
-        "- Be clear and practical"
+        "- Be positive and encouraging\n" +
+        "- Do not overthink or invent complex linguistic analysis"
     );
     return lines.join("\n");
   };
