@@ -217,6 +217,10 @@ details {
   display: grid;
   gap: 6px;
 }
+body.hard-mode ol {
+  list-style: none;
+  padding-left: 0;
+}
 .progress-bar {
   border-radius: 999px;
   border: 1px solid var(--border);
@@ -237,9 +241,10 @@ details {
 .progress-segment {
   height: 14px;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: transparent;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
   cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 .progress-segment.is-complete {
   background: #2563eb;
@@ -255,6 +260,10 @@ details {
 }
 .progress-segment.is-active {
   box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.35);
+}
+.hard-mode .progress-segment.is-active {
+  transform: scale(1.12);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.45), 0 0 10px rgba(15, 118, 110, 0.25);
 }
 .warning-text {
   margin: 6px 0 4px;

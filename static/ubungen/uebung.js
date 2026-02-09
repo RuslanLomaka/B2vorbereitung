@@ -166,6 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let saveSection = null;
   let warningEl = null;
   let completionListenersBound = false;
+  let hardNavBound = false;
   const buttonHome = { parent: button.parentNode, nextSibling: button.nextSibling };
   let lastFocusedInput = null;
   const resultsSection = button.closest("section");
@@ -540,6 +541,36 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         const radios = el.querySelectorAll ? el.querySelectorAll("input") : [];
         radios.forEach((radio) => radio.addEventListener("change", updateSegments));
+      });
+    }
+    if (!hardNavBound) {
+      hardNavBound = true;
+      document.addEventListener("keydown", (event) => {
+        if (!hardState.active) return;
+        if (event.ctrlKey || event.altKey || event.metaKey) return;
+        if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+        const target = event.target;
+        if (target && target.closest) {
+          const input = target.closest("input[type=\"text\"], textarea");
+          if (input) {
+            const value = input.value ?? "";
+            const start = input.selectionStart ?? 0;
+            const end = input.selectionEnd ?? start;
+            const atStart = start === 0 && end === 0;
+            const atEnd = start === value.length && end === value.length;
+            if (event.key === "ArrowLeft" && !atStart) return;
+            if (event.key === "ArrowRight" && !atEnd) return;
+          } else if (target.closest("[contenteditable=\"true\"]")) {
+            return;
+          }
+        }
+        const nextIndex = hardState.index + (event.key === "ArrowLeft" ? -1 : 1);
+        if (nextIndex < 0 || nextIndex >= hardState.items.length) return;
+        event.preventDefault();
+        showHardItem(nextIndex);
+        if (warningEl) warningEl.hidden = true;
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        focusFirstEmptyField(hardState.items[hardState.index]);
       });
     }
     ensureWarning();
